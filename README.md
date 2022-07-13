@@ -72,3 +72,14 @@ Ensure all user stories have been met.
 ## Deployment
 
 Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-031) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
