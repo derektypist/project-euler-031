@@ -24,5 +24,22 @@
             <p><span class="coins">1x£1 + 1x50p + 2x20p + 1x5p + 1x2p + 3x1p</span></p>
             <p>The aim is to find the number of different ways that n pence can be made using any number of coins.  Begin by entering the value in pence.</p>
         </section>
+
+        <!-- Set Up Form -->
+        <section class="container-fluid">
+            <form>
+                <!-- Set Up Label and Input -->
+                <article class="mb-3">
+                    <label class="form-label" for="pence">Value in Pence (Required)</label>
+                    <input class="form-control" placeholder="Enter value in pence between 1 and 1000 (e.g. 200)" title="Enter value in pence between 1 and 1000 (e.g. 200)" id="pence">
+                </article>
+
+                <!-- Set Up and Center Buttons -->
+                <article class="d-grid gap-2 d-flex justify-content-center">
+                    <button type="button" onclick="getCoinInfo()" class="btn btn-info">Submit</button>
+                    <button type="reset" onclick="clearInfo()" class="btn btn-warning"></button>
+                </article>
+            </form>
+        </section>
     </body>
 </html>
