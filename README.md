@@ -8,15 +8,16 @@ It is possible to make £2 in the following way:
 
     1x£1 + 1x50p + 2x20p + 1x5p + 1x2p + 3x1p
 
-The aim is to find the number of different ways that `n` pence can be made using any number of coins.  
+The aim is to find the number of different ways that `n` pence can be made using any number of coins.
 
 Information at [Project Euler 031](https://projecteuler.net/problem=31)
 
 **Hint**
 
 - There are 100 pence in a pound (£1 = 100p)
-- There are coins (in pence) are available: 1, 2, 5, 10, 20, 50, 100, 200
+- There are coins (in pence) that are available: 1, 2, 5, 10, 20, 50, 100, 200
 - How many different ways you can combine these values to make n pence
+- Use the Dynamic Programming Approach
 
 **Example**
 
@@ -55,3 +56,19 @@ As a user, I expect the function `coinSums(200)` to return 73682.
 **Information Architecture**
 
 The function `coinSums(n)` returns a number, where `n` is a number between 1 and 1000.
+
+## Features
+
+Allows the user to enter the value in pence as well as seeing the number of ways that n pence can be made using any number of coins.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.  Despite the title 'Coin Sums', it can be used for other purposes such as finding the number of ways to make 10 runs in cricket using the scores of 1, 2, 3, 4, 5 and 6 and any number of scoring shots.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.  Dynamic Programming Approach.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-031) at the main branch.
