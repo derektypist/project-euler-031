@@ -12,6 +12,21 @@ The aim is to find the number of different ways that `n` pence can be made using
 
 Information at [Project Euler 031](https://projecteuler.net/problem=31)
 
+**Hint**
+
+- There are 100 pence in a pound (£1 = 100p)
+- There are coins (in pence) are available: 1, 2, 5, 10, 20, 50, 100, 200
+- How many different ways you can combine these values to make n pence
+
+**Example**
+
+To make 5p there are 4 ways:
+
+    1,1,1,1,1
+    1,1,1,2
+    1,2,2
+    5
+
 ## UX
 
 **User Stories**
