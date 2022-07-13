@@ -11,7 +11,7 @@ function getCoinInfo() {
         // Remove any leading zeros
         num = parseInt(num);
         txt += `You have entered ${num} pence. <p>`;
-        txt += `There are ${coinSums(num)} ways to make ${num} pence.`;
+        txt += `There are ${coinSums(num)} ways to make ${num} pence using any number of coins.`;
     }
 
     // Display Information in the Browser
