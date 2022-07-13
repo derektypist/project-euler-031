@@ -42,3 +42,9 @@ function coinSums(n) {
     return numWays[n];
 }
 
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("coininfo").innerHTML = txt;
+}
+
