@@ -29,6 +29,10 @@ To make 5p there are 4 ways:
 
 ## UX
 
+**Getting Started**
+
+Enter the value in pence as a whole number (e.g. 200 pence for £2).  Unless you have made an invalid input, you will see the value in pence as well as the number of ways to make n pence using any number of coins.  For example, if you entered 50, you would expect to get 451 ways to make 50 pence using any number of coins.  Click on the Submit Button to clear the information or to start again.
+
 **User Stories**
 
 As a user, I expect the function `coinSums(50)` to return a number.
